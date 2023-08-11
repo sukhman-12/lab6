@@ -1,0 +1,84 @@
+/* page styling */
+body {
+    background-color: rgb(136, 81, 0);
+    color: rgba(255, 255, 255, 0.518);
+    margin: 0 auto;
+    width: 840px;
+    font-family: 'Arial', cursive;
+}
+
+/* header styling */
+header img {
+    height: 100px;
+}
+
+header {
+    border-bottom: 1px solid rgb(6, 5, 5);
+}
+
+/* flexing */
+.flex {
+    display: flex;
+}
+
+/* typography */
+
+h1 {
+    font-size: 40px;
+    line-height: 100px;
+    margin-left: 80px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+p, li {
+    line-height: 32px;
+}
+
+li {
+    list-style: circle;
+}
+
+footer p {
+    border-top: 1px solid black;
+    padding-top: 20px;
+    font-size: 8px;
+    text-align: left;
+}
+
+/* layout */
+main {
+    padding: 24px;
+}
+
+h2 {
+    margin-bottom: 12px;
+}
+
+ul {
+    margin-bottom: 32px;
+}
+
+/* "button" styling */
+.flex p {
+    padding: 10px;
+    background-color: Black;
+    margin: 32px;
+}
+
+.flex p:hover {
+    background-color: rgba(255, 166, 0, 0.801);
+    cursor: pointer;
+}
+
+span {
+    color: yellow;
+}
+
